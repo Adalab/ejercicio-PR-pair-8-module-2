@@ -5,6 +5,11 @@
 	width: 100px;
 	border-radius: 50%;
 }
+
+.head:hover {
+	background-color: powderblue;
+	transition: background-color 0.5s;
+}
 .face {
 	font-family: "courier new", serif;
 	font-size: 2.5em;
