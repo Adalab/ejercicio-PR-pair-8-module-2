@@ -4,12 +4,11 @@ const faceEl = document.querySelector('.js-face');
 const btnEl = document.querySelector('.js-btn');
 
 function handleClick() {
-    if ('click') {
+    if (faceEl.innerHTML === ':)') {
     faceEl.innerHTML = ';)';
-    } else {
+    } else if (faceEl.innerHTML === ';)') {
     faceEl.innerHTML = ':)';
     }
-    
 }
 
 btnEl.addEventListener('click', handleClick);
